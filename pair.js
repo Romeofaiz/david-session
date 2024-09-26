@@ -57,23 +57,26 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃QUEEN_ANITA_V2 SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
+*┏━━━━━━━━━━━━━━*
+*┃𝗪𝗔𝗧𝗦𝗢𝗡-XD-7 SESSION IS*
+*┃SUCCESSFULLY*
+*┃CONNECTED ✅🔥*
+*┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DAVID CYRIL 𖥘
+*❶ || Creator = RomekTricks Official👨🏻‍💻*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L
+*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/deecee_x 👈
+*❸ || Owner =* https://wa.me/+263781330745
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 David Cyril*
+*❹ || Repo =* https://github.com/WATSON-XD2/Watson-MD-Bot-V7
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❺ || You Tube =* https://youtube.com/@
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*🧚‍♀️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ©𝘄𝗮𝘁𝘀𝗼𝗻-xd-v7 ᴏꜰꜰɪᴄɪᴀʟ💗*
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:WATSON-MD_TEXT},{quoted:session})
  
 
         await delay(100);
